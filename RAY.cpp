@@ -1,9 +1,10 @@
 #include <iostream>
-
 #define PI 3.14159
 using namespace std;
+
 int main() {
-    double radius, area, circumference;
+    
+    float radius, area, circumference;
     
     cout << "Enter the radius of the circle: ";
     cin >> radius;
@@ -16,3 +17,4 @@ int main() {
     
     return 0;
 }
+
